@@ -1,0 +1,21 @@
+/* Asterix wildcard selector to remove default styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #3a3a3a;
+}
+
+/* Main content */
+main {
+    background-color: #c7b8f4;
+}
+
+/* Footer */
+footer {
+    background-color: #3a3a3a;
+}
