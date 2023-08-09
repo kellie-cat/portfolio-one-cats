@@ -96,7 +96,7 @@ footer {
     background-color: #363b4e;
 }
 
-/* Media quert : tablets and larger (768px and up */
+/* Media query : tablets and larger (768px and up) */
 @media screen and (min-width:769px) {
 
     /* Header */
@@ -129,5 +129,12 @@ footer {
     /* Main Content */
     main {
         margin-top: 107px;
+    }
+}
+
+/* Media query : large devices (992px and up) */
+@media screen and (min-width:769px) {
+    #menu a:hover {
+        border-bottom: 1px solid #363b4e;
     }
 }
