@@ -96,6 +96,22 @@ footer {
     background-color: #c4bbf0;
 }
 
+#social-networks {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-networks i {
+    font-size: 140%;
+    color: #363b4e;
+    padding: 10%;
+}
+
+
+
 /* Media query : tablets and larger (768px and up) */
 @media screen and (min-width:769px) {
 
