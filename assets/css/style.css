@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #f4eeff;
+    color: #363b4e;
     font-family: 'Inter', sans-serif;
 
 }
@@ -29,8 +29,15 @@ header {
     box-shadow: 0 1px 1px #363b4e;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Archivo', sans-serif;
+    color: #2a2438;
+    font-size: 2em;
 }
 
 /* Main content */
