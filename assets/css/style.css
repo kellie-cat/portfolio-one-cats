@@ -38,6 +38,20 @@ h1 {
     font-family: 'Archivo', sans-serif;
     color: #2a2438;
     font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+#menu>li {
+    margin-bottom: 0.75rem;
+}
+
+.active {
+    border-bottom: 1px solid #363b4e;
 }
 
 /* Main content */
