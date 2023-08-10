@@ -16,7 +16,19 @@ body {
     /* Generic project styles */
     color: #363b4e;
     font-family: 'Inter', sans-serif;
+}
 
+h1,
+h2,
+h3 {
+    font-family: 'Archivo', sans-serif;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    color: #2a2438;
 }
 
 /* Header */
@@ -35,13 +47,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Archivo', sans-serif;
-    color: #2a2438;
-    font-size: 2em;
-    margin-bottom: 0.5rem;
 }
 
 #menu {
@@ -96,6 +101,17 @@ main {
     height: 710px;
     width: 100%;
     background: url("../images/salem-flowerduvet-big-eyes.webp") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cover-text {
+    background-color: rgba(54, 59, 78, 0.6);
+    font-size: 80%;
+    width: 100%;
+    padding: 10px;
 }
 
 /* Footer */
