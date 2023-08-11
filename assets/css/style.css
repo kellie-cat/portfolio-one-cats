@@ -119,23 +119,22 @@ p {
 }
 
 /* starting flex-box code for reasons*/
-#introduction {
+.introduction-reasons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: column;
-    align-content: center;
+    flex-direction: row;
 }
 
-.cat-reasons {
+.introduction-reasons div {
     list-style-type: none;
-    width: 200px;
-    min-height: 100px;
     border: 2px solid #4f3b78;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #c4bbf0;
     padding: 14px;
-    margin: 10px auto;
+    margin: 10px;
+    flex-basis: 150px;
+    flex-grow: 1;
 }
 
 /* finishing flex-box code for reasons */
@@ -160,7 +159,7 @@ footer {
 }
 
 /* Media query : larger mobiles and landscape */
-@media screen and (min-width:576px) {
+/*@media screen and (min-width:576px) {
     #introduction {
         flex-direction: row;
         column-count: 2;
@@ -172,7 +171,7 @@ footer {
         display: inline-block;
         margin-right: 20px
     }
-}
+}*/
 
 
 
