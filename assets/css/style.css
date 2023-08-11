@@ -159,6 +159,21 @@ footer {
     padding: 10%;
 }
 
+/* Media query : larger mobiles and landscape */
+@media screen and (min-width:576px) {
+    #introduction {
+        flex-direction: row;
+        column-count: 2;
+        padding-left: 25px;
+    }
+
+    .cat-reasons {
+        width: 45%;
+        display: inline-block;
+        margin-right: 20px
+    }
+}
+
 
 
 /* Media query : tablets and larger (768px and up) */
