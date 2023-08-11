@@ -114,6 +114,32 @@ main {
     padding: 10px;
 }
 
+p {
+    padding: 10px;
+}
+
+/* starting flex-box code for reasons*/
+#introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cat-reasons {
+    list-style-type: none;
+    width: 200px;
+    min-height: 100px;
+    border: 2px solid #4f3b78;
+    border-radius: 8px;
+    background-color: #c4bbf0;
+    padding: 14px;
+    margin: 10px auto;
+}
+
+/* finishing flex-box code for reasons */
+
 /* Footer */
 footer {
     background-color: #c4bbf0;
