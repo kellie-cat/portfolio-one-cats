@@ -140,7 +140,7 @@ p {
 /* finishing flex-box code for reasons */
 
 /* Salem's page */
-#salems-main-photos img {
+.cats-main-photos img {
     height: 430px;
     width: 100%;
     border: 2px solid #4f3b78;
