@@ -177,6 +177,21 @@ footer {
     padding: 10%;
 }
 
+/* Media query : landscape mobiles and larger (653px and up) */
+@media screen and (min-width:653px) {
+    /* Main Content */
+
+    /* Salem's page */
+    .tablet-photos {
+        display: revert;
+    }
+
+    .cats-main-photos img {
+        max-width: 33%;
+        height: auto;
+    }
+}
+
 /* Media query : tablets and larger (768px and up) */
 @media screen and (min-width:769px) {
 
