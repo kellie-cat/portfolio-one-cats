@@ -144,7 +144,6 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 .cats-main-photos img {
     height: 430px;
@@ -189,6 +188,8 @@ footer {
     .cats-main-photos img {
         max-width: 33%;
         height: auto;
+        border-radius: 0;
+        border-width: 0;
     }
 }
 
