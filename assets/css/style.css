@@ -157,6 +157,21 @@ p {
     display: none;
 }
 
+#circle-bg {
+    background: url("../images/salem-cattree-ocean-eyes.webp") no-repeat top center/cover;
+    height: 75vw;
+    width: 75vw;   
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 15px;
+}
+
+#cat-circle-image {
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     background-color: #c4bbf0;
