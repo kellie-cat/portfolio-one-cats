@@ -188,11 +188,26 @@ th {
     justify-content: center;
 }
 
+
+#likes h3, #dislikes h3 {
+    padding: 0.2em;
+    text-align: center;
+}
+
+#likes, #dislikes {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #like-photo, #dislike-photo {
     width: 50vw;
     height: auto;
     max-width: 200px;
     margin: 20px;
+    border-radius: 2px;
+    align-items: center;
 }
 
 /* Footer */
