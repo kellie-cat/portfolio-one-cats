@@ -172,6 +172,13 @@ p {
     justify-content: center;
 }
 
+#like-photo, #dislike-photo {
+    width: 50vw;
+    height: auto;
+    max-width: 200px;
+    margin: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #c4bbf0;
