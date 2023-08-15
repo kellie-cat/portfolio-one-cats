@@ -157,6 +157,22 @@ p {
     display: none;
 }
 
+/* Personal Details */
+aside {
+    padding: 15px;
+}
+
+th, td {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #4f3b78;
+}
+
+th {
+    text-align: left;
+    font-size: 120%;
+}
+
 #circle-bg {
     background: url("../images/salem-cattree-ocean-eyes.webp") no-repeat top center/cover;
     height: 75vw;
