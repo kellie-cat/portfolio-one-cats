@@ -144,6 +144,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: #1a0127;
 }
 .cats-main-photos img {
@@ -160,7 +161,7 @@ p {
 
 /* Personal Details */
 aside {
-    padding: 15px;
+    padding: 2rem 1rem 0rem 1rem;
 }
 
 th, td {
@@ -187,8 +188,17 @@ th {
 #cat-circle-image {
     display: flex;
     justify-content: center;
+    padding-top: 1.4rem;
 }
 
+#story {
+    text-align: justify;
+    padding: 1rem;
+}
+
+#story h2 {
+    padding-left: 0.5rem;
+}
 
 #likes h3, #dislikes h3 {
     padding: 0.2em;
@@ -208,6 +218,7 @@ th {
     max-width: 200px;
     margin: 20px;
     border-radius: 2px;
+    border: 1px solid #1a0127;
     align-items: center;
 }
 
