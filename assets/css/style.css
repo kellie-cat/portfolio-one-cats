@@ -200,6 +200,11 @@ th {
     padding-left: 0.5rem;
 }
 
+#story p {
+    background-color: #c4bbf0;
+    border-radius: 4px;
+}
+
 #likes h3, #dislikes h3 {
     padding: 0.2em;
     text-align: center;
@@ -210,6 +215,10 @@ th {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#likes {
+    background-color: #baa3ef;
 }
 
 #like-photo, #dislike-photo {
@@ -299,6 +308,25 @@ footer {
     .cats-main-photos img {
         max-width: 33%;
         height: auto;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #likes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #dislikes {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
     }
 
 }
