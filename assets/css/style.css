@@ -144,11 +144,12 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #1a0127;
 }
 .cats-main-photos img {
     height: 430px;
     max-width: 100%;
-    border: 2px solid #4f3b78;
+    border: 3px solid #1a0127;
     border-radius: 10px;
 }
 
@@ -241,8 +242,6 @@ footer {
     .cats-main-photos img {
         max-width: 33%;
         height: auto;
-        border-radius: 0;
-        border-width: 0;
     }
 }
 
