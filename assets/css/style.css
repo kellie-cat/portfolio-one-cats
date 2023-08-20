@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #363b4e;
     font-family: 'Source Sans 3', sans-serif;
+    font-size: 1em;
 }
 
 h1,
@@ -104,7 +105,7 @@ nav {
     background-color: rgba(54, 59, 78, 0.6);
     font-size: 80%;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
 }
 
 p {
@@ -327,8 +328,15 @@ footer {
     }
 
     /* Main Content */
+    body {
+        font-size: 1.5em;
+    }
 
     /* Salem's page */
+    .cats-main-photos {
+        margin-top: 182px;
+    }
+
     .tablet-photos {
         display: revert;
     }
@@ -359,18 +367,21 @@ footer {
 
 }
 
-/* Media query : large devices (992px and up) */
-@media screen and (min-width:992px) {
+/* Media query : large devices (952px and up) */
+@media screen and (min-width:952px) {
     #menu a:hover {
         border-bottom: 1px solid #363b4e;
     }
 
     #hero {
         height: 1200px;
-        
     }
 
     /* Salem's page */
+    .cats-main-photos {
+        margin-top: 116px;
+    }
+
     .laptop-photos {
         display: revert;
     }
@@ -383,14 +394,34 @@ footer {
 
 /* Media query : larger monitors (1500px and up) */
 @media screen and (min-width:1500px){
+    #logo {
+        font-size: 5rem;
+    }
+
+    #menu {
+        font-size: xx-large;
+    }
+
     #hero {
+        margin-top: 127px;
         height: 1500px;
     }
 }
 
 /* Media query : largest monitors (2500px and up) */
 @media screen and (min-width:2500px){
+    #logo {
+        font-size: 10rem;
+        padding: 20px;
+    }
+
     #hero {
+        margin-top: 181px;
         height: 2200px;
+    }
+
+    #cover-text h2 {
+        font-size: 4rem;
+        padding-left: 50px;
     }
 }
