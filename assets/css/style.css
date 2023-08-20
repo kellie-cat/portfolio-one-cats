@@ -60,7 +60,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #363b4e;
+    border-bottom: 4px solid #363b4e;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -98,7 +98,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 82px;
+    margin-top: 94px;
 }
 
 #cover-text {
@@ -333,7 +333,7 @@ footer {
     }
 
     #hero {
-        margin-top: 107px;
+        margin-top: 127px;
     }
 
     /* Main Content */
@@ -379,7 +379,7 @@ footer {
 /* Media query : large devices (952px and up) */
 @media screen and (min-width:952px) {
     #menu a:hover {
-        border-bottom: 1px solid #363b4e;
+        border-bottom: 4px solid #363b4e;
     }
 
     #logo {
@@ -419,7 +419,7 @@ footer {
     }
 
     #hero {
-        margin-top: 127px;
+        margin-top: 143px;
         height: 1500px;
     }
 
