@@ -22,7 +22,7 @@ h1,
 h2,
 h3 {
     font-family: 'Archivo', sans-serif;
-    color: #FFFFFF;
+    color: #2a2438;
     font-size: 2em;
     margin-bottom: 0.5rem;
 }
@@ -33,7 +33,7 @@ h1 {
 
 /* Header */
 header {
-    background-color: #c4bbf0;
+    background-color: #C8B6FF;
     padding: 1rem 1rem;
     position: fixed;
     width: 100%;
@@ -66,7 +66,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #c4bbf0;
+    background-color: #C8B6FF;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -90,7 +90,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #927fbf;
+    background-color: #E7C6FF;
     /* Make main element take up surplus space to push footer down to the bottom */
     flex: 1 0 auto;
     margin-top: 77px;
@@ -128,9 +128,9 @@ p {
 
 #introduction-reasons div {
     list-style-type: none;
-    border: 2px solid #4f3b78;
+    border: 2px solid #6F2DBD;
     border-radius: 10px;
-    background-color: #c4bbf0;
+    background-color: #C8B6FF;
     padding: 14px;
     margin: 10px;
     flex-basis: 150px;
@@ -145,12 +145,12 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #1a0127;
+    background-color: #6F2DBD;
 }
 .cats-main-photos img {
     height: 430px;
     max-width: 100%;
-    border: 3px solid #1a0127;
+    border: 3px solid #6F2DBD;
     border-radius: 10px;
 }
 
@@ -167,7 +167,7 @@ aside {
 th, td {
     padding: 10px;
     background-color: #FFFFFF;
-    border-bottom: 1px solid #4f3b78;
+    border-bottom: 1px solid #6F2DBD;
 }
 
 th {
@@ -180,6 +180,7 @@ th {
     height: 75vw;
     width: 75vw;   
     border-radius: 50%;
+    border: 2px solid #6F2DBD;
     max-width: 250px;
     max-height: 250px;
     margin: 15px;
@@ -194,15 +195,12 @@ th {
 #story {
     text-align: justify;
     padding: 1rem;
+    background-color: #C8B6FF;
+    border-radius: 4px;
 }
 
 #story h2 {
     padding-left: 0.5rem;
-}
-
-#story p {
-    background-color: #c4bbf0;
-    border-radius: 4px;
 }
 
 #likes h3, #dislikes h3 {
@@ -227,13 +225,13 @@ th {
     max-width: 200px;
     margin: 20px;
     border-radius: 2px;
-    border: 1px solid #1a0127;
+    border: 2px solid #6F2DBD;
     align-items: center;
 }
 
 /* Footer */
 footer {
-    background-color: #c4bbf0;
+    background-color: #C8B6FF;
 }
 
 #social-networks {
