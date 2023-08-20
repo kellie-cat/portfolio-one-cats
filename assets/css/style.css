@@ -24,7 +24,7 @@ h3 {
     font-family: 'Playfair Display', serif;
     color: #2a2438;
     font-size: 2em;
-    margin-bottom: 0.5rem;
+    padding: 10px;
 }
 
 h2 {
@@ -126,6 +126,13 @@ main {
 .intro-heading {
     font-family: 'Source Sans 3', sans-serif;
     font-size: larger;
+    padding: 15px;
+}
+
+.intro-text-paragraph {
+    text-align: justify;
+    padding-top: 0;
+    padding-bottom: 15px;
 }
 
 /* starting flex-box code for reasons*/
@@ -310,7 +317,8 @@ footer {
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 0.65rem;
+        font-size: 1.5rem;
     }
 
     .nav-toggle-label {
@@ -318,7 +326,7 @@ footer {
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 2rem;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -373,6 +381,10 @@ footer {
         border-bottom: 1px solid #363b4e;
     }
 
+    #logo {
+        font-size: 3rem;
+    }
+
     #hero {
         height: 1200px;
     }
@@ -394,12 +406,16 @@ footer {
 
 /* Media query : larger monitors (1500px and up) */
 @media screen and (min-width:1500px){
+    body {
+        font-size: 2rem;
+    }
+
     #logo {
         font-size: 5rem;
     }
 
     #menu {
-        font-size: xx-large;
+        font-size: 3rem;
     }
 
     #hero {
@@ -410,9 +426,17 @@ footer {
 
 /* Media query : largest monitors (2500px and up) */
 @media screen and (min-width:2500px){
+    body {
+        font-size: 3rem;
+    }
+
     #logo {
         font-size: 10rem;
         padding: 20px;
+    }
+
+    #menu {
+        font-size: 5rem;
     }
 
     #hero {
