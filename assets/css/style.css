@@ -162,16 +162,17 @@ button {
     border: 2px solid #6F2DBD;
     border-radius: 4px;
     background-color: #6F2DBD;
-    color: #C8B6FF;
-    transition: all 200ms ease-in-out;
-    padding: 2px;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 15px;
     float: right;
     margin: 10px;
+    transition: all 200ms ease-in-out;
 }
 
 button:hover {
     color: #6F2DBD;
-    background-color: #C8B6FF;
+    background-color: #FFFFFF;
 }
 
 /* Salem's page */
@@ -342,7 +343,7 @@ footer {
 
     /* Salem's page */
     .cats-main-photos {
-        margin-top: 182px;
+        margin-top: 127px;
     }
 
     .tablet-photos {
@@ -400,7 +401,6 @@ footer {
 
     .cats-main-photos img {
         max-width: 20%;
-
     }
 }
 
@@ -414,13 +414,22 @@ footer {
         font-size: 5rem;
     }
 
-    #menu {
+    #menu>li {
         font-size: 3rem;
     }
 
     #hero {
         margin-top: 127px;
         height: 1500px;
+    }
+
+    button {
+        font-size: 3rem;
+    }
+
+    /* Salem's page */
+    .cats-main-photos {
+        margin-top: 143px;
     }
 }
 
@@ -435,17 +444,22 @@ footer {
         padding: 20px;
     }
 
-    #menu {
-        font-size: 5rem;
+    #menu>li {
+        font-size: 4rem;
     }
 
     #hero {
-        margin-top: 181px;
+        margin-top: 193px;
         height: 2200px;
     }
 
     #cover-text h2 {
         font-size: 4rem;
         padding-left: 50px;
+    }
+
+    /* Salem's page */
+    .cats-main-photos {
+        margin-top: 193px;
     }
 }
