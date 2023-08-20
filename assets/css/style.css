@@ -19,7 +19,6 @@ body {
 }
 
 h1,
-h2,
 h3 {
     font-family: 'Archivo', sans-serif;
     color: #2a2438;
@@ -27,8 +26,8 @@ h3 {
     margin-bottom: 0.5rem;
 }
 
-h1 {
-    color: #2a2438;
+h2 {
+    color: #E7C6FF;
 }
 
 /* Header */
@@ -139,6 +138,24 @@ p {
 
 /* finishing flex-box code for reasons */
 
+/* Button */
+button {
+    display: inline;
+    border: 2px solid #6F2DBD;
+    border-radius: 4px;
+    background-color: #6F2DBD;
+    color: #C8B6FF;
+    transition: all 200ms ease-in-out;
+    padding: 2px;
+    float: right;
+    margin: 10px;
+}
+
+button:hover {
+    color: #6F2DBD;
+    background-color: #C8B6FF;
+}
+
 /* Salem's page */
 .cats-main-photos {
     display: flex;
@@ -228,6 +245,8 @@ th {
     border: 2px solid #6F2DBD;
     align-items: center;
 }
+
+
 
 /* Footer */
 footer {
