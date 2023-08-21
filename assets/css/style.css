@@ -200,6 +200,8 @@ button:hover {
 /* Personal Details */
 .personal-details {
     padding: 2rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 th, td {
@@ -213,10 +215,6 @@ th {
     font-size: 120%;
 }
 
-/* Story */
-.story-heading {
-    text-align: center;
-}
 .circle-bg {
     background: url("../images/salem-cattree-ocean-eyes.webp") no-repeat top center/cover;
 }
@@ -226,17 +224,21 @@ th {
 }
 
 .circle-bg {
-    height: 75vw;
-    width: 75vw;   
+    height: 50vw;
+    width: 50vw;   
     border-radius: 50%;
     border: 2px solid #6F2DBD;
     margin: 15px;
+    margin-left: 25%;
 }
 
 #cat-circle-image {
-    display: flex;
-    justify-content: center;
     padding-top: 1.4rem;
+}
+
+/* Story */
+.story-heading {
+    text-align: center;
 }
 
 .story {
@@ -376,11 +378,13 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
+        padding: 2rem;
     }
 
     .circle-bg {
-        max-width: 25vw;
-        max-height: 25vw;
+        max-width: 23vw;
+        max-height: 23vw;
+        margin: 5%;
     }
 
     /* Likes and Dislikes */
@@ -499,5 +503,9 @@ footer {
     /* Salem's page */
     .cats-main-photos {
         margin-top: 193px;
+    }
+
+    .personal-details {
+        padding: 2rem 3rem 2rem 3rem;
     }
 }
