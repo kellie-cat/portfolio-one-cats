@@ -215,7 +215,7 @@ th {
 .story-heading {
     text-align: center;
 }
-.circle-bg {
+.salem-circle-bg {
     background: url("../images/salem-cattree-ocean-eyes.webp") no-repeat top center/cover;
     height: 75vw;
     width: 75vw;   
@@ -224,7 +224,7 @@ th {
     margin: 15px;
 }
 
-#cat-circle-image {
+.cat-circle-image {
     display: flex;
     justify-content: center;
     padding-top: 1.4rem;
