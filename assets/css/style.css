@@ -175,14 +175,16 @@ button:hover {
     background-color: #FFFFFF;
 }
 
-/* Salem's page */
+/* Cat's pages */
 .cats-main-photos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #6F2DBD;
+    margin-top: 94px;
 }
+
 .cats-main-photos img {
     height: 430px;
     max-width: 100%;
@@ -215,8 +217,12 @@ th {
 .story-heading {
     text-align: center;
 }
-#salem-circle-bg {
+.circle-bg {
     background: url("../images/salem-cattree-ocean-eyes.webp") no-repeat top center/cover;
+}
+
+#neo-circle-bg {
+    background: url("../images/neo-window-big-stretch-wide.webp") no-repeat top center/center;
 }
 
 .circle-bg {
@@ -227,7 +233,7 @@ th {
     margin: 15px;
 }
 
-.cat-circle-image {
+#cat-circle-image {
     display: flex;
     justify-content: center;
     padding-top: 1.4rem;
@@ -302,10 +308,6 @@ footer {
     /* Salem's page */
     .tablet-photos {
         display: revert;
-    }
-
-    .cats-main-photos {
-        margin-top: 94px;
     }
 
     .cats-main-photos img {
