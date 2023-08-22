@@ -21,7 +21,7 @@ https://kellie-cat.github.io/portfolio_one_cats/
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
+    - [Wireframes and Google Doc](#wireframes-and-google-doc)
   - [Features](#features)
     - [General features on each page](#general-features-on-each-page)
     - [Future Implementations](#future-implementations)
@@ -90,57 +90,81 @@ However, I needed to add contrast for aesthetics and accessibility, so I also de
 I decided to use a sans-serif font for the majority of the text for accessibility for screens.
 A serif font gave some personality to the headings and added a feel of a traditional photo album.
 
+![image](docs/fonts-for-pp1.png)
+
 ### Imagery
 
 As the purpose of the site is to display personal photos, no stock images were used. Photos of the cats were taken with my phone for the most part and converted to webp format with [Convertio](https://convertio.co/) and compressed to improve the site loading time with [tinyPNG.com](https://tinypng.com/)
 
-### Wireframes
+### Wireframes and Google Doc
 
+[Balsamiq](https://balsamiq.com/givingback/free/classroom/) wireframes were trialed to plan the project layout.
+A [Google Doc](https://docs.google.com/document/d/1MHucDlzqtl_P1LhT5bIwhmmNj4HthXPwZsA_NRs4mao/edit?usp=sharing) was used to plan the content and text, and decide upon the scope of the site.
 
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
-
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+The website has six pages accessible from the landing page (home page, a page for each of the four cats, and a contact page).
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+* All pages are responsive up to at least 3500px screen sizes.
+* On every page there is a navigation bar fixed at the top that helps the user navigate the site. As per convention, this has a logo to the left and a navbar to the right of the screen, that is hidden behind a burger toggle on smaller screens. The logo and the Home button will both bring the user to the Home Page.
+* At the bottom of every page a footer contains links to social media pages with icons from Font Awesome.
+
+Home page
+* The Hero Image is the main focus of the home page. It shows a picture of a beautiful cat with green eyes sitting on a duvet with pastel colours that inspired the colour scheme for the site. The text overlaid on the image explains the function of the site - it is a digital scrapbook of my pets.
+* Underneath the image, a paragraph of text welcomes the user and explains why I love cats so much.
+* The reasons section shows eight boxes enclosing eight reasons why cats are great.
+* Lastly, a button on the lower right of the screen invites the user to flick to the next page of the memory book, improving user experience by avoiding the need to move the mouse back to the navbar.
+
+Cats' pages
+* Under the header on the cats' pages are a collection of expanding photos that respond to the appropriate screen size. On small mobile devices, one image is seen, on larger mobiles, two images are revealed. On landscape mobiles and tablets, three photos appear, and on larger screens, five photos of the cat fill the width of the screen.
+* The Personal Details section introduces the cat with their biography organised within a table. Their name, age, special talents and theme tune are some of the facts highlighted here. A circle image of them adds visual interest to break up the text. This section is also resposive, organised in a column on narrow screens, and moved to a row arrangement as space allows.
+* The Story section allows the user to get to know the star of the page, with more details about their lives and special memories we want to record.
+* The Likes and Dislikes sections have different background colours to separate them. They have a heading, a list of likes or dislikes and an accommpanying photo. These are seen in a column on mobiles, and a row on larger screens
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+* Ideally, more space for photos at the bottom of each cat's would be great, as they are very photogenic creatures.
+* JavaScript would be beneficial for the contact page.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+I have tried to be inclusive for everyone when coding this website by
+* Using alt attributes on all images to describe them for people using screen readers.
+* Choosing colours with good contrast and making sure text is an appropriate size on all types of screen.
+* Using semantic HTML as much as possible.
+* Marking the current page as "active" on the navbar menu.
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+This website was made using HTML and CSS.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Balsamiq - Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Github - To save and store files for the website.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Google Fonts - To import the fonts used.
+
+Font Pair - To find a complementary font pairing.
+
+Font Awesome - For the icons.
+
+Google Chrome Development Tools - To test the code as I was writing it, and to troubleshoot and isolate issues with styling.
+
+Convertio - To convert images to webp format.
+
+Tinypng - To compress images.
+
+Favicon.io - To create favicon.
+
+Am I Responsive? - To display the website on a range of screen sizes.
+
 
 ## Deployment & Local Development
 
@@ -148,27 +172,39 @@ A great tip for this section is to include them as you use them, that way you wo
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+Github Pages was used to deploy the live website. The instructions to achieve this are:
+
+Log in (or sign up) to Github.
+Find the repository for this project, kellie-cat/portfolio_one_cats.
+Click on the Settings link.
+Click on the Pages link in the left hand side navigation bar.
+In the Source section, ensure Deploy from a branch is selected, and choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the Pet Pawtfolio:
+
+Log in (or sign up) to Github.
+Go to the repository for this project, kellie-cat/portfolio_one_cats.
+Click the Fork button in the top right corner.
+
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the Pet Pawtfolio:
+
+Log in (or sign up) to GitHub.
+Go to the repository for this project, kellie-cat/portfolio_one_cats.
+Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+[here](milestone1-testing.md)
 
 ## Credits
 
@@ -178,16 +214,21 @@ The Credits section is where you can credit all the people and sources you used 
 
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+Kera Cudmore's README.md 
+Love Running inspired header and footer
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content was written by Salem, Neo, Lucy and Evie's person, Kellie McConnell.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+Photos were taken by Kellie McConnell and William Wong (2nd person to Salem, Neo, Lucy and Evie).
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+Thank you so much to everyone who helped me in this project.
+* David Bowers, my Code Institute Mentor, I could not have completed this without your help.
+* Hollie in Tutor Support, for helping me figure out that code plays tricks sometimes.
+* My cats, for providing both the inspiration and content.
+* My husband, William Wong, for loving football and letting me code in peace.
