@@ -192,7 +192,8 @@ button:hover {
     border-radius: 10px;
 }
 
-.tablet-photos,
+.tablet-photo-one,
+.tablet-photo-two,
 .laptop-photos {
     display: none;
 }
@@ -303,12 +304,24 @@ footer {
     padding: 10%;
 }
 
+/* Media query : wider phones (360px and up) */
+@media screen and (min-width:360px) {
+    .tablet-photo-one {
+        display: revert;
+    }    
+
+    .cats-main-photos img {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
 /* Media query : landscape mobiles and larger (653px and up) */
 @media screen and (min-width:653px) {
     /* Main Content */
 
     /* Salem's page */
-    .tablet-photos {
+    .tablet-photo-two {
         display: revert;
     }
 
@@ -361,10 +374,6 @@ footer {
     /* Salem's page */
     .cats-main-photos {
         margin-top: 127px;
-    }
-
-    .tablet-photos {
-        display: revert;
     }
 
     .cats-main-photos img {
