@@ -200,7 +200,7 @@ button:hover {
 
 /* Personal Details */
 .personal-details {
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 1rem 0rem 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -221,12 +221,18 @@ th {
     width: 50vw;   
     border-radius: 50%;
     border: 2px solid #6F2DBD;
-    margin: 15px;
+    margin: 2rem 0rem 2rem 0rem;
     margin-left: 25%;
+    position: relative;
+    overflow: hidden;
 }
 
 #cat-circle-image {
-    padding-top: 1.4rem;
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
 }
 
 /* Story */
