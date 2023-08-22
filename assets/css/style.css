@@ -217,14 +217,6 @@ th {
 }
 
 .circle-bg {
-    background: url("../images/salem-cattree-ocean-eyes.webp") no-repeat top center/cover;
-}
-
-#neo-circle-bg {
-    background: url("../images/neo-window-big-stretch-wide.webp") no-repeat top center/center;
-}
-
-.circle-bg {
     height: 50vw;
     width: 50vw;   
     border-radius: 50%;
@@ -253,7 +245,8 @@ th {
     padding-left: 0.5rem;
 }
 
-.likes h3, .dislikes h3 {
+.likes-heading h3, 
+.dislikes-heading h3 {
     text-align: center;
 }
 
@@ -271,10 +264,16 @@ th {
 .like-photo, .dislike-photo {
     width: 50vw;
     height: auto;
-    margin: 20px;
+    margin: 2rem;
     border-radius: 2px;
     border: 2px solid #6F2DBD;
-    align-items: center;
+}
+
+.likes-photo img {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Cat's button */
@@ -422,8 +421,12 @@ footer {
 
     .like-photo,
     .dislike-photo {
-        margin: 1rem;
         max-width: 20vw;
+    }
+
+    .likes-photo img {
+        margin-top: 97px;
+        margin-bottom: 97px;
     }
 }
 
