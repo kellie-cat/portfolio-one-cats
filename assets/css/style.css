@@ -307,6 +307,21 @@ th {
     float: right;
 }
 
+/* Contact us */
+.white-background {
+    background-color: #FFFFFF;
+}
+
+#contact-image {
+    max-width: 100%;
+    height: 1500px;
+    background: url("../images/neo-window-blue-sky.webp") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    margin-top: 94px;
+    opacity: 0.35;
+}
+
 /* Footer */
 footer {
     background-color: #C8B6FF;
@@ -508,6 +523,11 @@ footer {
     .cats-main-photos {
         margin-top: 143px;
     }
+
+    /* Contact page */
+    #contact-image {
+        height: 2500px;
+    }
 }
 
 /* Media query : largest monitors (2500px and up) */
@@ -542,5 +562,10 @@ footer {
 
     .personal-details {
         padding: 2rem 3rem 2rem 3rem;
+    }
+
+    /* Contact page */
+    #contact-image {
+        height: 3500px;
     }
 }
