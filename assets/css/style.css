@@ -318,8 +318,28 @@ th {
     background: url("../images/neo-window-blue-sky.webp") no-repeat center center/cover;
     position: relative;
     display: flex;
+    flex-direction: column;
     margin-top: 94px;
-    opacity: 0.35;
+}
+
+.contact-paragraph,
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.pet-number {
+    font-size: 5em;
+}
+
+.submit-button {
+  margin-top: 2rem;
 }
 
 /* Footer */
@@ -466,6 +486,19 @@ footer {
         margin-top: 97px;
         margin-bottom: 97px;
     }
+
+    /* Contact page */
+    #contact-image {
+        margin-top: 127px;
+    }
+
+    .contact-paragraph {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        font-size: 2rem;
+    }
 }
 
 /* Media query : large devices (952px and up) */
@@ -527,6 +560,7 @@ footer {
     /* Contact page */
     #contact-image {
         height: 2500px;
+        margin-top: 143px;
     }
 }
 
@@ -567,5 +601,6 @@ footer {
     /* Contact page */
     #contact-image {
         height: 3500px;
+        margin-top: 194px;
     }
 }
