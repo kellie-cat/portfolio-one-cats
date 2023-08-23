@@ -282,6 +282,23 @@ th {
     margin-bottom: 1rem;
 }
 
+/*Evie's page*/
+.rip-evie {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.evies-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.evies-images {
+    max-width: 50vw;
+    border: 2px solid #000000;
+    border-radius: 4%;
+}
+
 /* Cat's button */
 .cats-button {
     margin: 0rem 0.5rem 0.5rem 0.5rem;
