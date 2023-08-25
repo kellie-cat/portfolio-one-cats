@@ -244,10 +244,21 @@ th {
     padding: 1rem;
     background-color: #C8B6FF;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .story h2 {
     padding-left: 0.5rem;
+}
+
+.story-photo {
+    width: 33vw;
+    height: auto;
+    border-radius: 2px;
+    border: 2px solid #6F2DBD;
+    margin: 1rem;
 }
 
 /* Likes and Dislikes */
