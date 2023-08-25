@@ -250,6 +250,8 @@ th {
     padding-left: 0.5rem;
 }
 
+/* Likes and Dislikes */
+
 .likes-heading h3, 
 .dislikes-heading h3 {
     text-align: center;
@@ -391,7 +393,7 @@ footer {
 @media screen and (min-width:653px) {
     /* Main Content */
 
-    /* Salem's page */
+    /* Cat's pages */
     .tablet-photo-two {
         display: revert;
     }
@@ -442,7 +444,7 @@ footer {
         font-size: 1.5em;
     }
 
-    /* Salem's page */
+    /* Cat's pages */
     .cats-main-photos {
         margin-top: 127px;
     }
@@ -471,13 +473,13 @@ footer {
 
     .likes {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: space-around;
     }
 
     .dislikes {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: space-around;
     }
 
