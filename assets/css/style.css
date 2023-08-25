@@ -319,6 +319,10 @@ th {
     float: right;
 }
 
+#evies-button {
+    margin: 0.5rem;
+}
+
 /* Contact us */
 .white-background {
     background-color: #FFFFFF;
