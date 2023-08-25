@@ -135,7 +135,7 @@ main {
     padding-bottom: 15px;
 }
 
-/* starting flex-box code for reasons*/
+/* Flex-box code for reasons*/
 #introduction-reasons {
     display: flex;
     flex-wrap: wrap;
@@ -154,23 +154,22 @@ main {
     flex-grow: 1;
 }
 
-/* finishing flex-box code for reasons */
-
 /* Button */
-button {
+.cats-button {
     display: inline;
     border: 2px solid #6F2DBD;
     border-radius: 4px;
     background-color: #6F2DBD;
     color: #FFFFFF;
     font-size: 1.2rem;
+    text-decoration: none;
     padding: 15px;
     float: right;
     margin: 0% 1% 1% 1%;
     transition: all 200ms ease-in-out;
 }
 
-button:hover {
+.cats-button:hover {
     color: #6F2DBD;
     background-color: #FFFFFF;
 }
@@ -336,10 +335,6 @@ th {
 
 .pet-number {
     font-size: 5em;
-}
-
-.submit-button {
-  margin-top: 2rem;
 }
 
 /* Footer */
