@@ -1,131 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Pet Pawtfolio, a digital scrapbook for pets, collect memories of pets"
-    />
-    <meta
-      name="keywords"
-      content="pets, scrapbook, memories, memory books, photo albums, compilations, photos, photographs, cats, dogs, animals, digital"
-    />
-    <!--Title-->
-    <title>Pet Pawtfolio</title>
-    <!--Favicon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/android-chrome-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header>
-      <a href="index.html">
-        <h1 id="logo">Pet Pawtfolio</h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="salem.html">Salem</a></li>
-          <li><a href="neo.html">Neo</a></li>
-          <li><a href="lucy.html">Lucy</a></li>
-          <li><a href="evie.html">Evie</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Main Content -->
-    <main class="white-background">
-        <section id="contact-image">
-            <h3 class="contact-paragraph">CONTACT US</h3>
-            <p class="contact-paragraph">Do you have pets you would like to create a digital memory book for?</p>
-            <p class="contact-paragraph">Please get in touch if you would like more information.</p>
-            <p class="contact-paragraph">You can use TikTok, Instagram, or submit the form below.</p>
-            <form class="contact-form" method="post" action="thankyou.html">
-                <label for="name">Your name:</label>
-                <input type="text" required id="name">
-                <br>
-                <label for="email">Your email:</label>
-                <input type="email" required id="email">
-                <br>
-                <label for="telephone">Your number:</label>
-                <input type="telephone" required id="telephone">
-                <br>
-                <p>How many pets do you have?</p>
-                <label for="pet-number-one">One</label>
-                <input type="radio" id="pet-number-one" class="pet-number">
-                <label for="pet-number-two">Two</label>
-                <input type="radio" id="pet-number-two" class="pet-number">
-                <label for="pet-number-three">Three</label>
-                <input type="radio" id="pet-number-three" class="pet-number">
-                <label for="pet-number-four-and-up">Four+</label>
-                <input type="radio" id="pet-number-four-and-up" class="pet-number">
-                <br>
-                <label for="pet-type">What kind of pets do you have?</label>
-                <input type="text" id="pet-type">
-                <a href="thankyou.html" class="submit-button">Submit!</a>
-            </form>
-        </section>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.tiktok.com/en/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Tiktok page (opens in a new tab)"
-            ><i class="fa-brands fa-tiktok"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our YouTube page (opens in a new tab)"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
-    <!-- Font Awesome Kit -->
-    <script
-      src="https://kit.fontawesome.com/4fc309812e.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta
+            name="description"
+            content="Pet Pawtfolio, a digital scrapbook for pets, collect memories of pets">
+        <meta
+            name="keywords"
+            content="pets, scrapbook, memories, memory books, photo albums, compilations, photos, photographs, cats, dogs, animals, digital">
+
+        <!--Title-->
+        <title>Pet Pawtfolio</title>
+
+        <!--Favicon-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicon/android-chrome-192x192.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicon/favicon-32x32.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+
+            <a href="index.html">
+                <h1 id="logo">Pet Pawtfolio</h1>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="salem.html">Salem</a></li>
+                    <li><a href="neo.html">Neo</a></li>
+                    <li><a href="lucy.html">Lucy</a></li>
+                    <li><a href="evie.html">Evie</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- Main Content -->
+        <main class="white-background">
+
+            <section id="contact-image">
+                <h3 class="contact-paragraph">CONTACT US</h3>
+
+                <p class="contact-paragraph">Do you have pets you would like to create a digital memory book for?</p>
+
+                <p class="contact-paragraph">Please get in touch if you would like more information.</p>
+
+                <p class="contact-paragraph">You can use TikTok, Instagram, or submit the form below.</p>
+
+                <form class="contact-form" method="post" action="thankyou.html">
+                    <label for="name">Your name:</label>
+                    <input type="text" required id="name">
+                    <br>
+
+                    <label for="email">Your email:</label>
+                    <input type="email" required id="email">
+                    <br>
+
+                    <label for="telephone">Your number:</label>
+                    <input type="telephone" required id="telephone">
+                    <br>
+
+                    <p>How many pets do you have?</p>
+                    <label for="pet-number-one">One</label>
+                    <input type="radio" id="pet-number-one" class="pet-number">
+                    <label for="pet-number-two">Two</label>
+                    <input type="radio" id="pet-number-two" class="pet-number">
+                    <label for="pet-number-three">Three</label>
+                    <input type="radio" id="pet-number-three" class="pet-number">
+                    <label for="pet-number-four-and-up">Four+</label>
+                    <input type="radio" id="pet-number-four-and-up" class="pet-number">
+                    <br>
+
+                    <label for="pet-type">What kind of pets do you have?</label>
+                    <input type="text" id="pet-type">
+                    <a 
+                        href="thankyou.html" 
+                        class="submit-button"
+                        aria-label="Click to submit your information">
+                        Submit!
+                    </a>
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+
+            <ul id="social-networks">
+
+                <li>
+                    <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.tiktok.com/en/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Tiktok page (opens in a new tab)">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://www.youtube.com/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </footer>
+
+        <!-- Font Awesome Kit -->
+        <script
+            src="https://kit.fontawesome.com/4fc309812e.js"
+            crossorigin="anonymous">
+        </script>
+
+    </body>
+
 </html>

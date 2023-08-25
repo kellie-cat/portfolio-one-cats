@@ -204,7 +204,9 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 
 ## Testing
 
-[here](milestone1-testing.md)
+HTML validator was used to check all of the HTML and the CSS on the site.
+
+* [Thank you page HTML](https://validator.w3.org/nu/#textarea)
 
 ## Credits
 
