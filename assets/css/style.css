@@ -337,6 +337,25 @@ th {
     font-size: 5em;
 }
 
+.submit-button {
+    display: inline;
+    border: 2px solid #6F2DBD;
+    border-radius: 4px;
+    background-color: #6F2DBD;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin: 1%;
+    transition: all 200ms ease-in-out;
+}
+
+.submit-button:hover {
+    color: #6F2DBD;
+    background-color: #FFFFFF;
+}
+
 /* Footer */
 footer {
     background-color: #C8B6FF;
