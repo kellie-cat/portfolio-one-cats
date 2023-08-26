@@ -101,15 +101,11 @@ nav {
     margin-top: 94px;
 }
 
-#cover-text {
-    background-color: rgba(54, 59, 78, 0.6);
+.hero-text {
+    background-color: rgba(54, 59, 78, 0.8);
     font-size: 80%;
     width: 100%;
     padding: 15px;
-}
-
-p {
-    padding: 10px;
 }
 
 /* Main content */
@@ -131,8 +127,7 @@ main {
 
 .intro-text-paragraph {
     text-align: justify;
-    padding-top: 0;
-    padding-bottom: 15px;
+    padding: 1rem;
 }
 
 /* Flex-box code for reasons*/
@@ -615,7 +610,7 @@ footer {
         height: 2200px;
     }
 
-    #cover-text h2 {
+    .hero-text h2 {
         font-size: 4rem;
         padding-left: 50px;
     }

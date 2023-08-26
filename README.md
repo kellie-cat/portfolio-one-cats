@@ -4,7 +4,7 @@ Paw Pawtfolio is a responsive website that acts as a digital scrapbook of my bel
 
 https://kellie-cat.github.io/portfolio_one_cats/
 
-[shields.io](https://shields.io) 
+[shields.io](https://shields.io)
 
 ---
 
@@ -51,9 +51,13 @@ There is a page for each cat, like a spread in a scrapbook, and also a contact p
 ### Key information for the site
 
 • An introduction to Pet Pawtfolio and reasons to celebrate our pets.
+
 • A navigation section with pages named after each cat.
+
 • A page dedicated to each cat.
+
 • A contact page for people to get in touch.
+
 • Links to social media pages.
 
 ### User Stories
@@ -61,19 +65,25 @@ There is a page for each cat, like a spread in a scrapbook, and also a contact p
 #### Goals
 
 • To have a site that is responsive for screen sizes from handheld devices to larger monitors.
+
 • To have a site that is intuitive and accessible both visually and for people using screen readers.
+
 • To showcase my cats with a site that loads well and all links work.
+
 • To give people contact information so they can contact me to request future projects.
 
 #### First Time User Goals
 
 • I want to learn about the pets.
+
 • I want to view their information and pictures in an aesthetically pleasing way.
+
 • I want to navigate around the site easily.
 
 #### Returning Visitor Goals
 
 • I want familiarity that improves UX by creating an feeling of ease of use.
+
 • I want to contact the page to ask how I can have a Pet Pawfolio for my pets.
 
 ## Design
@@ -112,27 +122,37 @@ A [Google Doc](https://docs.google.com/document/d/1MHucDlzqtl_P1LhT5bIwhmmNj4Hth
 The website has six pages accessible from the landing page (home page, a page for each of the four cats, and a contact page).
 
 - All pages are responsive up to at least 3500px screen sizes.
+  
 - On every page there is a navigation bar fixed at the top that helps the user navigate the site. As per convention, this has a logo to the left and a navbar to the right of the screen, that is hidden behind a burger toggle on smaller screens. The logo and the Home button will both bring the user to the Home Page.
+  
 - At the bottom of every page a footer contains links to social media pages with icons from Font Awesome.
 
 Home page
 
 - The Hero Image is the main focus of the home page. It shows a picture of a beautiful cat with green eyes sitting on a duvet with pastel colours that inspired the colour scheme for the site. The text overlaid on the image explains the function of the site - it is a digital scrapbook of my pets.
+  
 - Underneath the image, a paragraph of text welcomes the user and explains why I love cats so much.
+  
 - The reasons section shows eight boxes enclosing eight reasons why cats are great.
+  
 - Lastly, a button on the lower right of the screen invites the user to flick to the next page of the memory book, improving user experience by avoiding the need to move the mouse back to the navbar.
 
 Cats' pages
 
 - Under the header on the cats' pages are a collection of expanding photos that respond to the appropriate screen size. On small mobile devices, one image is seen, on larger mobiles, two images are revealed. On landscape mobiles and tablets, three photos appear, and on larger screens, five photos of the cat fill the width of the screen.
+  
 - The Personal Details section introduces the cat with their biography organised within a table. Their name, age, special talents and theme tune are some of the facts highlighted here. A circle image of them adds visual interest to break up the text. This section is also resposive, organised in a column on narrow screens, and moved to a row arrangement as space allows.
+  
 - The Story section allows the user to get to know the star of the page, with more details about their lives and special memories we want to record.
+  
 - The Likes and Dislikes sections have different background colours to separate them. They have a heading, a list of likes or dislikes and an accommpanying photo. These are seen in a column on mobiles, and a row on larger screens
 
 ### Future Implementations
 
 - Ideally, more space for photos on each cat's page would be great, as they are very photogenic creatures. A photo reel that could be swiped through with arrows to alert the user to scroll through extra pictures would be a way of displaying all photos even on small devices.
+  
 - The ability to enlarge photos on small screens would be beneficial for people with sight impairments.
+  
 - JavaScript would be beneficial for the contact page. At present it is just a form, the information is not sent anywhere or stored.
 
 ### Accessibility
@@ -140,9 +160,13 @@ Cats' pages
 I have tried to be inclusive for everyone when coding this website by
 
 - Using alt attributes on all images to describe them for people using screen readers.
+  
 - Choosing colours with good contrast and making sure text is an appropriate size on all types of screen.
+  
 - Using semantic HTML as much as possible.
+  
 - Marking the current page as "active" on the navbar menu.
+  
 - Testing the website with Lighthouse.
 
 ## Technologies Used
@@ -240,6 +264,9 @@ Photos were taken by Kellie McConnell and William Wong (2nd person to Salem, Neo
 Thank you so much to everyone who helped me in this project.
 
 - David Bowers, my Code Institute Mentor, I could not have completed this without your help.
+  
 - Hollie in Tutor Support, for helping me figure out that code needs patience.
+  
 - My cats, for providing both the inspiration and content.
+  
 - My husband, William Wong, for loving football and letting me code in peace.
