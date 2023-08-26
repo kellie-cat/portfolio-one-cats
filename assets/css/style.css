@@ -337,16 +337,12 @@ th {
 .contact-form {
     background-color: rgba(255, 255, 255, 0.5);
     color: #000000;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     flex-wrap: wrap;
-    font-size: 1.5rem;
-}
-
-.pet-number {
-    font-size: 5em;
+    font-size: 1.15rem;
 }
 
 .submit-button {
@@ -359,7 +355,7 @@ th {
     text-decoration: none;
     text-align: center;
     padding: 15px;
-    margin: 1%;
+    margin: 1rem;
     transition: all 200ms ease-in-out;
 }
 
