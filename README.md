@@ -104,7 +104,7 @@ However, I needed to add contrast for aesthetics and accessibility, so I also de
 I decided to use a sans-serif font for the majority of the text for accessibility for screens.
 A serif font gave some personality to the headings and added a feel of a traditional photo album.
 
-![image](docs/fonts-for-pp1.png)
+![Screenshot of fonts](docs/fonts-for-pp1.png)
 
 ### Imagery
 
@@ -235,14 +235,14 @@ To clone the Pet Pawtfolio:
 
 HTML validator was used to check all of the HTML and the CSS on the site.
 
-- ![Home page]()
-- ![Salem's page]()
-- ![Neo's page]()
-- ![Lucy's page]()
-- ![Evie's page]()
-- ![Contact page]()
-- ![Thank you page HTML]()
-- ![CSS]()
+- ![Home page](docs/home-page-html-validation-pp1.png)
+- ![Salem's page](docs/salem-html-validation-pp1.png)
+- ![Neo's page](/workspaces/portfolio_one_cats/docs/neo-html-validator-pp1.png)
+- ![Lucy's page](docs/lucy-html-validator-pp1.png)
+- ![Evie's page](docs/evie-html-validator-pp1.png)
+- ![Contact page](docs/contact-html-validator-pp1.png)
+- ![Thank you page HTML](docs/thankyou-html-validator-pp1.png)
+- ![CSS](docs/css-validator-pp1.png)
 
 ## Credits
 
