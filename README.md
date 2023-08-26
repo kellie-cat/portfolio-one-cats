@@ -50,41 +50,31 @@ There is a page for each cat, like a spread in a scrapbook, and also a contact p
 
 ### Key information for the site
 
-• An introduction to Pet Pawtfolio and reasons to celebrate our pets.
-
-• A navigation section with pages named after each cat.
-
-• A page dedicated to each cat.
-
-• A contact page for people to get in touch.
-
-• Links to social media pages.
+- An introduction to Pet Pawtfolio and reasons to celebrate our pets.
+- A navigation section with pages named after each cat.
+- A page dedicated to each cat.
+- A contact page for people to get in touch.
+- Links to social media pages.
 
 ### User Stories
 
 #### Goals
 
-• To have a site that is responsive for screen sizes from handheld devices to larger monitors.
-
-• To have a site that is intuitive and accessible both visually and for people using screen readers.
-
-• To showcase my cats with a site that loads well and all links work.
-
-• To give people contact information so they can contact me to request future projects.
+- To have a site that is responsive for screen sizes from handheld devices to larger monitors.
+- To have a site that is intuitive and accessible both visually and for people using screen readers.
+- To showcase my cats with a site that loads well and all links work.
+- To give people contact information so they can contact me to request future projects.
 
 #### First Time User Goals
 
-• I want to learn about the pets.
-
-• I want to view their information and pictures in an aesthetically pleasing way.
-
-• I want to navigate around the site easily.
+- I want to learn about the pets.
+- I want to view their information and pictures in an aesthetically pleasing way.
+- I want to navigate around the site easily.
 
 #### Returning Visitor Goals
 
-• I want familiarity that improves UX by creating an feeling of ease of use.
-
-• I want to contact the page to ask how I can have a Pet Pawfolio for my pets.
+- I want familiarity that improves UX by creating an feeling of ease of use.
+- I want to contact the page to ask how I can have a Pet Pawfolio for my pets.
 
 ## Design
 
@@ -248,7 +238,7 @@ HTML validator was used to check all of the HTML and the CSS on the site.
 
 ### Code Used
 
-Kera Cudmore's README.md 
+Kera Cudmore's README.md
 Love Running inspired header and footer
 
 ### Content
@@ -258,6 +248,7 @@ Content was written by Salem, Neo, Lucy and Evie's person, Kellie McConnell.
 ### Media
 
 Photos were taken by Kellie McConnell and William Wong (2nd person to Salem, Neo, Lucy and Evie).
+The photo named evie-wedding was taken by Bruno Rosa for Kellie McConnell and William Wong with full permission give the Kellie McConnell to use in all capacities.
   
 ### Acknowledgments
 
@@ -270,3 +261,4 @@ Thank you so much to everyone who helped me in this project.
 - My cats, for providing both the inspiration and content.
   
 - My husband, William Wong, for loving football and letting me code in peace.
+  
