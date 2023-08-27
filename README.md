@@ -241,18 +241,25 @@ HTML validator was used to check all of the HTML and the CSS on the site.
 
 ![Home page](docs/home-page-html-validation-pp1.png)
 Home page validation
+
 ![Salem's page](docs/salem-html-validation-pp1.png)
 Salem's page validation
+
 ![Neo's page](docs/neo-html-validator-pp1.png)
 Neo's page validation
+
 ![Lucy's page](docs/lucy-html-validator-pp1.png)
 Lucy's page validation
+
 ![Evie's page](docs/evie-html-validator-pp1.png)
 Evie's page validation
+
 ![Contact page](docs/contact-html-validator-pp1.png)
 Contact page validation
+
 ![Thank you page HTML](docs/thankyou-html-validator-pp1.png)
 Thank you page validation
+
 ![CSS](docs/css-validator-pp1.png)
 CSS validation
 
@@ -273,6 +280,7 @@ I have learned a lot, and hopefully learned how to avoid a lot of issues in futu
 2. After a lot of back and forth with the margin-top command for the hero image and cats main photos, using different values to push them down below the header on different screen sizes, it stopped working properly on small screens for the cat's pages and the top of their photos was under the header. I tried everything. Deleted and rewrote code. Googles for about 20minutes. Logged out of the workspace and logged back in. I asked for help in Tutor Assistance. Hollie kindly checked it out - and everything looked perfect on her screen. When I checked it out on a different computer, all looked fine there too. And when I logged back in the next day, the issue had resolved itself. Sometimes turning it off and turning it on again works for code too.
 3. The radio inputs were placed under and to the right of their labels on the contact page. I learned how to wrap the radio input inside the label to have them displayed tirectly to the left of their label, as convention dictates.
 4. Codeanywhere kept reformatting my code. This was particularly distracting with the Story section, where the entire paragraph kept reverting to being on one line, and the number of spaces in an indent kept changing back to 2 when I wanted 4. I changed some of the settings to preserve my format and now the code reads much more clearly.
+5. Lighthouse flagged that there was no h2 element on any page except the homepage, as h2 was used for the hero-text. An h2 hidden-heading was added to other pages to conform to semantic layout.
 
 ### Known Bugs
 
@@ -298,7 +306,7 @@ Content was written by Salem, Neo, Lucy and Evie's person, Kellie McConnell.
 ### Media
 
 Photos were taken by Kellie McConnell and William Wong (2nd person to Salem, Neo, Lucy and Evie).
-The photo named evie-wedding was taken by Bruno Rosa for Kellie McConnell and William Wong with full permission give the Kellie McConnell to use in all capacities.
+The photo named evie-wedding was taken by Bruno Rosa for Kellie McConnell and William Wong with full permission given to Kellie McConnell to use in all capacities.
   
 ### Acknowledgments
 
