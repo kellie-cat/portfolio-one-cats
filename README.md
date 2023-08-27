@@ -223,16 +223,32 @@ To clone the Pet Pawtfolio:
 
 ## Testing
 
+The website was tested as it was built using Google Devtools. It was designed with a mobile-first mindset and other screensizes were adjusted using media queries.
+
 HTML validator was used to check all of the HTML and the CSS on the site.
 
-- ![Home page](docs/home-page-html-validation-pp1.png)
-- ![Salem's page](docs/salem-html-validation-pp1.png)
-- ![Neo's page](/workspaces/portfolio_one_cats/docs/neo-html-validator-pp1.png)
-- ![Lucy's page](docs/lucy-html-validator-pp1.png)
-- ![Evie's page](docs/evie-html-validator-pp1.png)
-- ![Contact page](docs/contact-html-validator-pp1.png)
-- ![Thank you page HTML](docs/thankyou-html-validator-pp1.png)
-- ![CSS](docs/css-validator-pp1.png)
+![Home page](docs/home-page-html-validation-pp1.png)
+Home page validation
+![Salem's page](docs/salem-html-validation-pp1.png)
+Salem's page validation
+![Neo's page](docs/neo-html-validator-pp1.png)
+Neo's page validation
+![Lucy's page](docs/lucy-html-validator-pp1.png)
+Lucy's page validation
+![Evie's page](docs/evie-html-validator-pp1.png)
+Evie's page validation
+![Contact page](docs/contact-html-validator-pp1.png)
+Contact page validation
+![Thank you page HTML](docs/thankyou-html-validator-pp1.png)
+Thank you page validation
+![CSS](docs/css-validator-pp1.png)
+CSS validation
+
+Two users were asked to give feedback for the site near the end of construction and both recommended to break up the text in the story section, with either paragraphs or more pictures.
+
+![Claire's comment](docs/claire-feedback.png)
+
+![Niamh's feedback](docs/niamh-feedback.png)
 
 ## Credits
 
