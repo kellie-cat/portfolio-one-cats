@@ -2,9 +2,13 @@
 
 Paw Pawtfolio is a responsive website that acts as a digital scrapbook of my beloved pets. It's purpose is to document and share memories for myself and my partner., and our family and friends. It also showcases my memory book for future potential clients who may want me to develop a memory book for their pets.
 
-https://kellie-cat.github.io/portfolio_one_cats/
+![Screenshot of Pet Pawtfolio on Am I Responsive](docs/pp1-cats-amiresponsive.png)
 
-[shields.io](https://shields.io)
+[View Pet Pawtfolio on Github Pages](https://kellie-cat.github.io/portfolio_one_cats/)
+
+![W3C Validation](https://img.shields.io/w3c-validation/html)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/kellie-cat/portfolio_one_cats)
+![GitHub contributors](https://img.shields.io/github/contributors/kellie-cat/portfolio_one_cats)
 
 ---
 
@@ -35,6 +39,9 @@ https://kellie-cat.github.io/portfolio_one_cats/
       - [How to Fork](#how-to-fork)
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
+    - [User Feedback](#user-feedback)
+    - [Resolved Bugs](#resolved-bugs)
+    - [Known Bugs](#known-bugs)
   - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
@@ -45,7 +52,7 @@ https://kellie-cat.github.io/portfolio_one_cats/
 
 ## User Experience (UX)
 
-Paw Pawtfolio is a website to document memories and pictures of my cats so that I can treasure them and share them with my loved ones. 
+Paw Pawtfolio is a website to document memories and pictures of my cats so that I can treasure them and share them with my loved ones.
 There is a page for each cat, like a spread in a scrapbook, and also a contact page at the end for any potential clients who may be interested in getting in touch to ask about how I can help create their own Pet Pawtfolio.
 
 ### Key information for the site
@@ -102,7 +109,8 @@ As the purpose of the site is to display personal photos, no stock images were u
 
 ### Wireframes and Google Doc
 
-[Balsamiq](https://balsamiq.com/givingback/free/classroom/) wireframes were trialed to plan the project layout.
+![Balsamiq wireframe trial for PP1](docs/pp1-cats-balsamiq.png)
+Balsamiq wireframes were trialed to plan the project layout.
 A [Google Doc](https://docs.google.com/document/d/1MHucDlzqtl_P1LhT5bIwhmmNj4HthXPwZsA_NRs4mao/edit?usp=sharing) was used to plan the content and text, and decide upon the scope of the site.
 
 ## Features
@@ -167,25 +175,29 @@ This website was made using HTML and CSS.
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Used to create wireframes.
+[Balsamiq](https://balsamiq.com/givingback/free/classroom/) - Used to create wireframes.
 
-Github - To save and store files for the website.
+[Github](https://github.com/Code-Institute-Org/ci-full-template) - To save and store files for the website.
 
-Google Fonts - To import the fonts used.
+[Codeanywhere](https://dashboard.codeanywhere.com/) - To write the code.
 
-Font Pair - To find a complementary font pairing.
+[Google Fonts](https://fonts.google.com/) - To import the fonts used.
 
-Font Awesome - For the icons.
+[Font Pair](https://www.fontpair.co/all) - To find a complementary font pairing.
 
-Google Chrome Development Tools - To test the code as I was writing it, and to troubleshoot and isolate issues with styling.
+[Font Awesome](https://fontawesome.com/) - For the icons.
 
-Convertio - To convert images to webp format.
+Google Chrome Development Tools - To test the code as I was writing it, and to troubleshoot and isolate issues with styling, as well as test accessibilty with Lighthouse.
 
-Tinypng - To compress images.
+[Convertio](https://convertio.co/) - To convert images to webp format.
 
-Favicon.io - To create favicon.
+[Tinypng](https://tinypng.com/) - To compress images.
 
-Am I Responsive? - To display the website on a range of screen sizes.
+[Favicon](https://favicon.io/) - To create favicon.
+
+[Am I Responsive?](https://ui.dev/amiresponsive) - To display the website on a range of screen sizes.
+
+[Shields](https://shields.io) - To display badges in this README.md document.
 
 ## Deployment & Local Development
 
@@ -244,19 +256,39 @@ Thank you page validation
 ![CSS](docs/css-validator-pp1.png)
 CSS validation
 
+### User Feedback
+
 Two users were asked to give feedback for the site near the end of construction and both recommended to break up the text in the story section, with either paragraphs or more pictures.
 
 ![Claire's comment](docs/claire-feedback.png)
 
 ![Niamh's feedback](docs/niamh-feedback.png)
 
+### Resolved Bugs
+
+Many issues were discovered and resolved throughout the project.
+I have learned a lot, and hopefully learned how to avoid a lot of issues in future.
+
+1. I wanted to learn to use flexbox for the reasons boxes on the home page. Nothing worked until I read [this guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), recommended by fellow coder on Slack. On the 3rd read through, I realised I was adding the display:flex; command to the element, not the parent.
+2. After a lot of back and forth with the margin-top command for the hero image and cats main photos, using different values to push them down below the header on different screen sizes, it stopped working properly on small screens for the cat's pages and the top of their photos was under the header. I tried everything. Deleted and rewrote code. Googles for about 20minutes. Logged out of the workspace and logged back in. I asked for help in Tutor Assistance. Hollie kindly checked it out - and everything looked perfect on her screen. When I checked it out on a different computer, all looked fine there too. And when I logged back in the next day, the issue had resolved itself. Sometimes turning it off and turning it on again works for code too.
+3. The radio inputs were placed under and to the right of their labels on the contact page. I learned how to wrap the radio input inside the label to have them displayed tirectly to the left of their label, as convention dictates.
+4. Codeanywhere kept reformatting my code. This was particularly distracting with the Story section, where the entire paragraph kept reverting to being on one line, and the number of spaces in an indent kept changing back to 2 when I wanted 4. I changed some of the settings to preserve my format and now the code reads much more clearly.
+
+### Known Bugs
+
+As well as the hopes for future developments, there are some issues on the Pet Pawtfolio.
+
+1. The Contact page form does not save the data or send it anywhere. Javascript is needed to do this.
+2. The photos in the Story section are block elements and should be integrated into the text to improve the UX on larger screen sizes.
+3. The hero image becomes overly cropped on larger screens of over 3500px.
+
 ## Credits
 
 ### Code Used
 
-Kera Cudmore's README.md
-Love Running inspired header and footer
-
+- Kera Cudmore's README.md
+- Love Running inspired header and footer
+  
 ### Content
 
 Content was written by Salem, Neo, Lucy and Evie's person, Kellie McConnell.
@@ -276,5 +308,5 @@ Thank you so much to everyone who helped me in this project.
   
 - My cats, for providing both the inspiration and content.
   
-- My husband, William Wong, for loving football and letting me code in peace.
+- My husband, William Wong, for loving football and giving me peace to code.
   
