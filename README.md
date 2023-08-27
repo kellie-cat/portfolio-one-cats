@@ -1,12 +1,12 @@
 # PAW PAWTFOLIO
 
-Paw Pawtfolio is a responsive website that acts as a digital scrapbook of my beloved pets. It's purpose is to document and share memories for myself and my partner., and our family and friends. It also showcases my memory book for future potential clients who may want me to develop a memory book for their pets.
+Paw Pawtfolio is a responsive website that acts as a digital scrapbook of my beloved pets. It's purpose is to document and share memories for myself and my partner, and our family and friends. It also showcases my memory book for future potential clients who may want me to develop a memory book for their pets.
 
 ![Screenshot of Pet Pawtfolio on Am I Responsive](docs/pp1-cats-amiresponsive.png)
 
 [View Pet Pawtfolio on Github Pages](https://kellie-cat.github.io/portfolio_one_cats/)
 
-![W3C Validation](https://img.shields.io/w3c-validation/html)
+![W3C Validation](https://img.shields.io/w3c-validation/:parser?targetUrl=https%3A%2F%2Fvalidator.nu%2F)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/kellie-cat/portfolio_one_cats)
 ![GitHub contributors](https://img.shields.io/github/contributors/kellie-cat/portfolio_one_cats)
 
