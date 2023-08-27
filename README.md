@@ -281,12 +281,14 @@ As well as the hopes for future developments, there are some issues on the Pet P
 1. The Contact page form does not save the data or send it anywhere. Javascript is needed to do this.
 2. The photos in the Story section are block elements and should be integrated into the text to improve the UX on larger screen sizes.
 3. The hero image becomes overly cropped on larger screens of over 3500px.
+4. Going forward, I have learned to give the HTML elements proper classes from the beginning, rather than targetting the element itself, as going back through the code and reclassifying certain elements and looking for the matching CSS is doable. But it can be tedious and lead to issues with the changes taking some time to implement.
+5. The main issue with the page is the large number of photos and the time it takes to load images of good quality reduces the page performance. The very nature of the page is that it is designed to preserve memories and therefore, reducing the number of photos or the quality is not an option. Considering the audience is heavily invested in the product, hopefully not too many users will be put off by this. I would like to learn how to use Responsive images for different media queries and this could be used to update the page and keep load times as low as feasible in the future.
 
 ## Credits
 
 ### Code Used
 
-- Kera Cudmore's README.md
+- [Kera Cudmore's README.md for the Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club)
 - Love Running inspired header and footer
   
 ### Content
