@@ -6,7 +6,6 @@ Paw Pawtfolio is a responsive website that acts as a digital scrapbook of my bel
 
 [View Pet Pawtfolio on Github Pages](https://kellie-cat.github.io/portfolio_one_cats/)
 
-![W3C Validation](https://img.shields.io/w3c-validation/:parser?targetUrl=https%3A%2F%2Fvalidator.nu%2F)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/kellie-cat/portfolio_one_cats)
 ![GitHub contributors](https://img.shields.io/github/contributors/kellie-cat/portfolio_one_cats)
 
@@ -111,7 +110,7 @@ As the purpose of the site is to display personal photos, no stock images were u
 
 ![Balsamiq wireframe trial for PP1](docs/pp1-cats-balsamiq.png)
 Balsamiq wireframes were trialed to plan the project layout.
-A [Google Doc](https://docs.google.com/document/d/1MHucDlzqtl_P1LhT5bIwhmmNj4HthXPwZsA_NRs4mao/edit?usp=sharing) was used to plan the content and text, and decide upon the scope of the site.
+A [Google Doc](docs/pet-pawtfolio-google-doc-plan.pdf) was used to plan the content and text, and decide upon the scope of the site.
 
 ## Features
 
@@ -315,6 +314,8 @@ Thank you so much to everyone who helped me in this project.
 - David Bowers, my Code Institute Mentor, I could not have completed this without your help.
   
 - Hollie in Tutor Support, for helping me figure out that code needs patience.
+
+- Claire and Niamh, for taking the time to evaluate the project.
   
 - My cats, for providing both the inspiration and content.
   
