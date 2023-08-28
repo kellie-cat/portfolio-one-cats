@@ -351,6 +351,14 @@ th {
     font-size: 1.15rem;
 }
 
+input[type=text],
+input[type=email],
+input[type=number] {
+    padding: 0.8rem;
+    background-color: rgba(186, 163, 239, 0.7);
+    font-size: 1.15rem;
+}
+
 .submit-button {
     display: inline;
     border: 2px solid #6F2DBD;
