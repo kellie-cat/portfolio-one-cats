@@ -146,11 +146,12 @@ Cats' pages
 
 ### Future Implementations
 
-- Ideally, more space for photos on each cat's page would be great, as they are very photogenic creatures. A photo reel that could be swiped through with arrows to alert the user to scroll through extra pictures would be a way of displaying all photos even on small devices.
-  
-- The ability to enlarge photos on small screens would be beneficial for people with sight impairments.
-  
+- Ideally, more space for photos on each cat's page would be great, as they are very photogenic creatures. A photo reel that could be swiped through with arrows to alert the user to scroll through extra pictures would be a way of displaying all photos even on small devices. I would like to learn how to use Responsive images for different media queries and this could be used to update the page and keep load times as low as feasible in the future.
+- The ability to enlarge photos on small screens would be beneficial, especially for people with sight impairments.
 - JavaScript would be beneficial for the contact page. At present it is just a form, the information is not sent anywhere or stored.
+- The photos in the Story section are block elements and should be integrated into the text to improve the UX on larger screen sizes.
+- The hero image becomes overly cropped on larger screens of over 3500px.
+- Going forward, I have learned to give the HTML elements proper classes from the beginning, rather than targetting the element itself, as going back through the code and reclassifying certain elements and looking for the matching CSS is doable. But it can be tedious and lead to issues with the changes taking some time to implement.
 
 ### Accessibility
 
@@ -164,7 +165,7 @@ I have tried to be inclusive for everyone when coding this website by
   
 - Marking the current page as "active" on the navbar menu.
   
-- Testing the website with Lighthouse.
+- Testing the website with Lighthouse and Wave.
 
 ## Technologies Used
 
@@ -191,6 +192,8 @@ Google Chrome Development Tools - To test the code as I was writing it, and to t
 [Convertio](https://convertio.co/) - To convert images to webp format.
 
 [Tinypng](https://tinypng.com/) - To compress images.
+
+[RedKetchup](https://redketchup.io/image-resizer) - To resize images.
 
 [Favicon](https://favicon.io/) - To create favicon.
 
@@ -279,17 +282,11 @@ I have learned a lot, and hopefully learned how to avoid a lot of issues in futu
 2. After a lot of back and forth with the margin-top command for the hero image and cats main photos, using different values to push them down below the header on different screen sizes, it stopped working properly on small screens for the cat's pages and the top of their photos was under the header. I tried everything. Deleted and rewrote code. Googles for about 20minutes. Logged out of the workspace and logged back in. I asked for help in Tutor Assistance. Hollie kindly checked it out - and everything looked perfect on her screen. When I checked it out on a different computer, all looked fine there too. And when I logged back in the next day, the issue had resolved itself. Sometimes turning it off and turning it on again works for code too.
 3. The radio inputs were placed under and to the right of their labels on the contact page. I learned how to wrap the radio input inside the label to have them displayed tirectly to the left of their label, as convention dictates.
 4. Codeanywhere kept reformatting my code. This was particularly distracting with the Story section, where the entire paragraph kept reverting to being on one line, and the number of spaces in an indent kept changing back to 2 when I wanted 4. I changed some of the settings to preserve my format and now the code reads much more clearly.
-5. Lighthouse flagged that there was no h2 element on any page except the homepage, as h2 was used for the hero-text. An h2 hidden-heading was added to other pages to conform to semantic layout.
+5. Lighthouse flagged that there was no h2 element within the cats-main-photos section. An h2 hidden-heading was added to other pages to conform to semantic layout.
 
 ### Known Bugs
 
-As well as the hopes for future developments, there are some issues on the Pet Pawtfolio.
-
-1. The Contact page form does not save the data or send it anywhere. Javascript is needed to do this.
-2. The photos in the Story section are block elements and should be integrated into the text to improve the UX on larger screen sizes.
-3. The hero image becomes overly cropped on larger screens of over 3500px.
-4. Going forward, I have learned to give the HTML elements proper classes from the beginning, rather than targetting the element itself, as going back through the code and reclassifying certain elements and looking for the matching CSS is doable. But it can be tedious and lead to issues with the changes taking some time to implement.
-5. The main issue with the page is the large number of photos and the time it takes to load images of good quality reduces the page performance. The very nature of the page is that it is designed to preserve memories and therefore, reducing the number of photos or the quality is not an option. Considering the audience is heavily invested in the product, hopefully not too many users will be put off by this. I would like to learn how to use Responsive images for different media queries and this could be used to update the page and keep load times as low as feasible in the future.
+There are no unfixed bugs on the Pet Pawtfolio.
 
 ## Credits
 
