@@ -27,11 +27,6 @@ h3 {
     padding: 10px;
 }
 
-h2 {
-    color: #E7C6FF;
-    font-size: 2em;
-}
-
 /* Header */
 header {
     background-color: #C8B6FF;
@@ -91,7 +86,7 @@ nav {
 
 /* Hero image */
 #hero {
-    height: 880px;
+    height: 680px;
     width: 100%;
     background: url("../images/salem-flowerduvet-big-eyes.webp") no-repeat center center/cover;
     position: relative;
@@ -106,6 +101,8 @@ nav {
     font-size: 80%;
     width: 100%;
     padding: 15px;
+    color: #E7C6FF;
+    font-size: 1.2rem;
 }
 
 /* Main content */
@@ -443,6 +440,7 @@ footer {
 
     #hero {
         margin-top: 127px;
+        height: 920px;
     }
 
     /* Main Content */
