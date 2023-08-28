@@ -99,6 +99,7 @@ nav {
 .hero-text {
     background-color: rgba(54, 59, 78, 0.8);
     font-size: 80%;
+    font-family: Source Sans 3, sans-serif;
     width: 100%;
     padding: 15px;
     color: #E7C6FF;
@@ -196,6 +197,12 @@ main {
     flex-direction: column;
 }
 
+.personal-details-heading {
+    font-family: 'Playfair Display', serif;
+    color: #2a2438;
+    font-size: 2rem;
+}
+
 th, td {
     padding: 10px;
     background-color: #FFFFFF;
@@ -229,6 +236,9 @@ th {
 /* Story */
 .story-heading {
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #2a2438;
+    font-size: 2rem;
 }
 
 .story {
@@ -241,10 +251,6 @@ th {
     align-items: center;
 }
 
-.story h2 {
-    padding-left: 0.5rem;
-}
-
 .story-photo {
     width: 33vw;
     height: auto;
@@ -255,9 +261,12 @@ th {
 
 /* Likes and Dislikes */
 
-.likes-heading h3, 
-.dislikes-heading h3 {
+.likes-heading h2, 
+.dislikes-heading h2 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #2a2438;
+    font-size: 2rem;
 }
 
 .likes, .dislikes {
