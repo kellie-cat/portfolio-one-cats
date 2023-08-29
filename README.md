@@ -227,6 +227,8 @@ This website was made using HTML and CSS.
 
 Google Chrome Development Tools - To test the code as I was writing it, and to troubleshoot and isolate issues with styling, as well as test accessibilty with Lighthouse.
 
+[Wave](https://wave.webaim.org/) - To evaluate accessibility.
+
 [Convertio](https://convertio.co/) - To convert images to webp format.
 
 [Tinypng](https://tinypng.com/) - To compress images.
@@ -275,7 +277,7 @@ To clone the Pet Pawtfolio:
 
 ## Testing
 
-The website was tested as it was built using Google Devtools. It was designed with a mobile-first mindset and other screensizes were adjusted using media queries.
+The website was tested as it was built on Google Chrome using Google Devtools. It was designed with a mobile-first mindset and other screensizes were adjusted using media queries. Other browsers were tested.
 
 HTML validator was used to check all of the HTML and the CSS on the site.
 
@@ -314,7 +316,7 @@ Two users were asked to give feedback for the site near the end of construction 
 ### Resolved Bugs
 
 Many issues were discovered and resolved throughout the project.
-I have learned a lot, and hopefully learned how to avoid a lot of issues in future.
+I have learned a lot, and hopefully learned how to avoid many issues in future.
 
 1. I wanted to learn to use flexbox for the reasons boxes on the home page. Nothing worked until I read [this guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), recommended by fellow coder on Slack. On the 3rd read through, I realised I was adding the display:flex; command to the element, not the parent.
 2. After a lot of back and forth with the margin-top command for the hero image and cats main photos, using different values to push them down below the header on different screen sizes, it stopped working properly on small screens for the cat's pages and the top of their photos was under the header. I tried everything. Deleted and rewrote code. Googles for about 20minutes. Logged out of the workspace and logged back in. I asked for help in Tutor Assistance. Hollie kindly checked it out - and everything looked perfect on her screen. When I checked it out on a different computer, all looked fine there too. And when I logged back in the next day, the issue had resolved itself. Sometimes turning it off and turning it on again works for code too.
