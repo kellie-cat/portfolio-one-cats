@@ -12,6 +12,7 @@ Paw Pawtfolio is a responsive website that acts as a digital scrapbook of my bel
 ---
 
 ## CONTENTS
+
 - [PAW PAWTFOLIO](#paw-pawtfolio)
   - [CONTENTS](#contents)
   - [User Experience (UX)](#user-experience-ux)
@@ -117,6 +118,7 @@ A [Google Doc](docs/pet-pawtfolio-google-doc-plan.pdf) was used to plan the cont
 ### General features on each page
 
 The website has six pages accessible from the landing page (home page, a page for each of the four cats, and a contact page).
+
 - All pages are responsive up to 3500px screen sizes.
   
 ![A screenshot of the logo and burger icon on a mobile](docs/logo-burger-on-mobile.png)
@@ -248,7 +250,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, ensure Deploy from a branch is selected, and choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-Click Save. 
+Click Save.
 Your live Github Pages site is now deployed at the URL shown.
 
 ### Local Development
