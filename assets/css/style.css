@@ -355,6 +355,7 @@ th {
 .contact-heading {
     font-size: 2rem;
     padding-top: 1rem;
+    font-family: 'Playfair Display', serif;
 }
 
 input[type=text],

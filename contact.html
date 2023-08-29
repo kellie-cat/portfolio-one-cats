@@ -66,7 +66,7 @@
             <h2 class="hidden-heading">Photo of Neo in the window</h2>
 
             <section id="contact-image">
-                <h3 class="contact-heading">CONTACT US</h3>
+                <h2 class="contact-heading">CONTACT US</h2>
 
                 <p class="contact-paragraph">Do you have pets you would like to create a digital memory book for?</p>
 
@@ -74,7 +74,7 @@
 
                 <p class="contact-paragraph">You can use TikTok, Instagram, or submit the form below.</p>
 
-                <form class="contact-form" method="post" action="thankyou.html">
+                <form class="contact-form" method="GET" action="thankyou.html">
                     <label for="name">Your name:</label>
                     <input type="text" required id="name">
 
@@ -84,30 +84,29 @@
                     <label for="telephone">Your number:</label>
                     <input type="number" required id="telephone">
 
-                    <p>How many pets do you have?</p>
-                    <label for="pet-number-one">
-                    <input type="radio" id="pet-number-one" class="pet-number" name="pet-number" checked>
-                    One</label>
-                    <label for="pet-number-two">
-                        <input type="radio" id="pet-number-two" class="pet-number" name="pet-number">
-                        Two
-                    </label>
-                    <label for="pet-number-three">
-                        <input type="radio" id="pet-number-three" class="pet-number" name="pet-number">
-                        Three
-                    </label>
-                    <label for="pet-number-four-and-up"><input type="radio" id="pet-number-four-and-up" class="pet-number" name="pet-number">
-                        Four+
-                    </label>
+                    <fieldset>
+                        <legend>How many pets do you have?</legend>
+                        <label for="pet-number-one">
+                        <input type="radio" id="pet-number-one" class="pet-number" name="pet-number" checked>
+                        One</label>
+                        <label for="pet-number-two">
+                            <input type="radio" id="pet-number-two" class="pet-number" name="pet-number">
+                            Two
+                        </label>
+                        <label for="pet-number-three">
+                            <input type="radio" id="pet-number-three" class="pet-number" name="pet-number">
+                            Three
+                        </label>
+                        <label for="pet-number-four-and-up"><input type="radio" id="pet-number-four-and-up" class="pet-number" name="pet-number">
+                            Four+
+                        </label>
+                    </fieldset>
 
                     <label for="pet-type">What kind of pets do you have?</label>
                     <input type="text" id="pet-type">
-                    <a 
-                        href="thankyou.html" 
-                        class="submit-button"
-                        aria-label="Click to submit your information">
+                    <button class="submit-button">
                         Submit!
-                    </a>
+                    </button>
 
                 </form>
 
