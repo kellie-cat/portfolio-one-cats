@@ -339,11 +339,12 @@ th {
     margin-top: 94px;
 }
 
+.contact-heading,
 .contact-paragraph,
 .contact-form {
     background-color: rgba(255, 255, 255, 0.5);
     color: #000000;
-    padding: 1rem 2rem 0rem 2rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -351,10 +352,15 @@ th {
     font-size: 1.15rem;
 }
 
+.contact-heading {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
 input[type=text],
 input[type=email],
 input[type=number] {
-    padding: 0.8rem;
+    padding: 0.5rem;
     background-color: rgba(186, 163, 239, 0.7);
     font-size: 1.15rem;
 }
