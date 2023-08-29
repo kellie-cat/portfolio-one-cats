@@ -252,7 +252,7 @@ th {
 }
 
 .story-photo {
-    width: 33vw;
+    width: 50vw;
     height: auto;
     border-radius: 2px;
     border: 2px solid #6F2DBD;
@@ -278,6 +278,10 @@ th {
 
 .likes {
     background-color: #baa3ef;
+}
+
+.likes-list {
+    padding-left: 1.5rem;
 }
 
 .like-photo, .dislike-photo {
