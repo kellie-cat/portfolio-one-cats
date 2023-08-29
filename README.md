@@ -117,23 +117,63 @@ A [Google Doc](docs/pet-pawtfolio-google-doc-plan.pdf) was used to plan the cont
 ### General features on each page
 
 The website has six pages accessible from the landing page (home page, a page for each of the four cats, and a contact page).
-- All pages are responsive up to at least 3500px screen sizes.
+- All pages are responsive up to 3500px screen sizes.
+  
+![A screenshot of the logo and burger icon on a mobile](docs/logo-burger-on-mobile.png)
+
 - On every page there is a navigation bar fixed at the top that helps the user navigate the site. As per convention, this has a logo to the left and a navbar to the right of the screen, that is hidden behind a burger toggle on smaller screens. The logo and the Home button will both bring the user to the Home Page.
+
+![A screenshot of the expanded navbar](docs/expanded-navbar-on-mobile.png)
+
 - At the bottom of every page a footer contains links to social media pages with icons from Font Awesome.
+
+![A screenshot of the footer on a mobile device](docs/footer-on-mobile.png)
 
 Home page
 
 - The Hero Image is the main focus of the home page. It shows a picture of a beautiful cat with green eyes sitting on a duvet with pastel colours that inspired the colour scheme for the site. The text overlaid on the image explains the function of the site - it is a digital scrapbook of my pets.
+
+![A screenshot of the hero image and text on mobile](docs/hero-image-on-mobile.png)
+
 - Underneath the image, a paragraph of text welcomes the user and explains why I love cats so much.
+
+![A screenshot of the introduction dection on a tablet](docs/intro-reasons-on-tablet.png)
+
 - The reasons section shows eight boxes enclosing eight reasons why cats are great.
+  
 - Lastly, a button on the lower right of the screen invites the user to flick to the next page of the memory book, improving user experience by avoiding the need to move the mouse back to the navbar.
+  
+![A screenshot of the button to turn to the next page](docs/turn-page-button-on-tablet.png)
 
 Cats' pages
 
 - Under the header on the cats' pages are a collection of expanding photos that respond to the appropriate screen size. On small mobile devices, one image is seen, on larger mobiles, two images are revealed. On landscape mobiles and tablets, three photos appear, and on larger screens, five photos of the cat fill the width of the screen.
+
+![A screenshot of the cats photo on a small mobile](docs/cat-image-on-mobile.png)
+
+![A screenshot of the cats photo on a large mobile](docs/cat-image-on-large-mobile.png)
+
+![A screenshot of the cats photo on a landscape mobile or tablet](docs/cat-image-landscape-mobile.png)
+
+![A screenshot of the cats photo on a large device](docs/cat-image-laptop.png)
+
 - The Personal Details section introduces the cat with their biography organised within a table. Their name, age, special talents and theme tune are some of the facts highlighted here. A circle image of them adds visual interest to break up the text. This section is also resposive, organised in a column on narrow screens, and moved to a row arrangement as space allows.
+
+![A screenshot of the personal details section on a tablet](docs/personal-details-tablet.png)
+
 - The Story section allows the user to get to know the star of the page, with more details about their lives and special memories we want to record.
-- The Likes and Dislikes sections have different background colours to separate them. They have a heading, a list of likes or dislikes and an accommpanying photo. These are seen in a column on mobiles, and a row on larger screens
+
+![A screenshot of the story section on a tablet](docs/story-tablet.png)
+
+- The Likes and Dislikes sections have different background colours to separate them. They have a heading, a list of likes or dislikes and an accommpanying photo. These are seen in a column on mobiles, and a row on larger screens.
+  
+![A screenshot of the likes section on a tablet](docs/likes-dislikes-tablet.png)
+
+- The Contact Page invites users to complete a form to ask for more information. If they do not complete the required sections properly, the form does not submit. If they complete the required sections, then a Thank you message is displayed.
+
+![A screenshot of the contact form on a large mobile](docs/contact-on-large-mobile.png)
+
+![A screenshot of the thank you message on a small mobile](docs/thankyou-small-mobile.png)
 
 ### Future Implementations
 
@@ -149,7 +189,9 @@ I have tried to be inclusive for everyone when coding this website by
 
 - Using alt attributes on all images to describe them for people using screen readers.
   
-- Choosing colours with good contrast and making sure text is an appropriate size on all types of screen.
+- The EightShapes Contrast Grid was helpful with matching background and text colours with good contrast and making sure text is an appropriate size on all types of screen.
+  
+![Colour Grid screenshot](docs/colour-grid.png)
   
 - Using semantic HTML as much as possible.
   
@@ -176,6 +218,10 @@ This website was made using HTML and CSS.
 [Font Pair](https://www.fontpair.co/all) - To find a complementary font pairing.
 
 [Font Awesome](https://fontawesome.com/) - For the icons.
+
+[Coolors](https://coolors.co/) - To choose colours that showcased the greyscale cats.
+
+[EightShapes Contrast Grid](https://contrast-grid.eightshapes.com/) - To improve accessibilty with colours.
 
 Google Chrome Development Tools - To test the code as I was writing it, and to troubleshoot and isolate issues with styling, as well as test accessibilty with Lighthouse.
 
