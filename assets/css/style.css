@@ -595,9 +595,18 @@ footer {
         font-size: 3rem;
     }
 
-    /* Salem's page */
+    /* Cat's pages */
     .cats-main-photos {
         margin-top: 143px;
+    }
+
+    .personal-details-heading,
+    .story-heading {
+        font-size: 4rem;
+    }
+
+    .likes-heading h2 {
+        font-size: 4rem;
     }
 
     /* Contact page */
@@ -632,13 +641,23 @@ footer {
         padding-left: 50px;
     }
 
-    /* Salem's page */
+    /* Cat's page */
     .cats-main-photos {
         margin-top: 193px;
     }
 
     .personal-details {
         padding: 2rem 3rem 2rem 3rem;
+    }
+
+
+    .personal-details-heading,
+    .story-heading {
+        font-size: 5rem;
+    }
+
+    .likes-heading h2 {
+        font-size: 5rem;
     }
 
     /* Contact page */
